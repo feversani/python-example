@@ -7,6 +7,5 @@ def run():
     else:
         print("No es palindromo!")
 
-
 if __name__ == "__main__":
     run()

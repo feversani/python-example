@@ -25,7 +25,7 @@ def run():
     for key,value in dict3.items():
         print(key,value)
     
-    dict4 = { i: i**0.5 for i in range(1000)}
+    dict4 = { i: i**0.5 for i in range(1001)}
     print("DICCIONARIO AL CUADRADO!")
     for key,value in dict4.items():
         print(key,value)
