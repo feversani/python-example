@@ -95,9 +95,6 @@ def show_adults():
 def old_people():
     old = list(map(lambda worker: worker | {"old": worker ["age"] > 70}, DATA))
     
-    for key in old:
-        print (key)
-
 def run():
     #show_dev_python()
     #show_platzi()

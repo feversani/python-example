@@ -1,4 +1,5 @@
-import random 
+import random
+import os 
 
 def comprobacion(num_ale,num):
     if num_ale > num:
@@ -19,9 +20,9 @@ def genera():
 
 def ingreso_num():
     flag=True
-    while (flag): 
+    while (flag):
         num=int(input("Ingrese un numero entre 0 y 100: "))
-        if (num >= 0 and num <=100):
+        if ():
             flag=False
         else:
             print("Numero fuera de rango, vuelva a ingresar el numero!")
