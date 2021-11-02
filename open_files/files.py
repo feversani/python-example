@@ -2,8 +2,8 @@ import os
 FILE_PATH=os.path.dirname(__file__)
 
 def write():
-    names = ["Facundo", "Miguel", "Pepe", "Christian"]
-    with open(f"{FILE_PATH}/folder/names.txt","w") as f:
+    names = ["Facundo2", "Miguel", "Pepe", "Christian"]
+    with open(f"{FILE_PATH}/folder/names.txt","a") as f:
         for name in names:
             f.write(name)
             f.write("\n")
